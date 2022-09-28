@@ -6,3 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.title {
+  text-transform: capitalize;
+}
+
+.section-title {
+  text-transform: capitalize;
+  color: red;
+}
+
+.btn {
+  background: purple;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 0.25rem;
+  width: 200px;
+
+  text-align: center;
+}
