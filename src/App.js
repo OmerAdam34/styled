@@ -1,11 +1,28 @@
+import styled from "styled-components";
+
+// tagged template literal
+const BasicTitle = styled.h1`
+  text-transform: capitalize;
+`;
+
+const DefaultButton = styled.button`
+  background: purple;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 0.25rem;
+  width: 200px;
+  text-align: center;
+`;
+
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
-      <h1 className="title">styled components</h1>
-      <button className="btn">click me</button>
-      <div style={{ padding: "2rem" }}>
-        <h2 className="section-title">hello world</h2>
-      </div>
+      <BasicTitle>styled component</BasicTitle>
+
+      <DefaultButton>click me</DefaultButton>
     </div>
   );
 }
