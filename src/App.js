@@ -1,9 +1,5 @@
 import styled from "styled-components";
-
-// tagged template literal
-const BasicTitle = styled.h1`
-  text-transform: capitalize;
-`;
+import BasicTitle from "./components/BasicTitle";
 
 const DefaultButton = styled.button`
   background: purple;
